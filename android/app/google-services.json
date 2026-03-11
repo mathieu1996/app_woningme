@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "604429301833",
+    "project_id": "woningme-67ca2",
+    "storage_bucket": "woningme-67ca2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604429301833:android:a0415415c5ed26ac85e798",
+        "android_client_info": {
+          "package_name": "me.woning.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604429301833-t91636sol4hfq3d3s740cno27948kls2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAc6UzGJGd-gRnYe1lF4arXRpjfsNdi-j4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604429301833-t91636sol4hfq3d3s740cno27948kls2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

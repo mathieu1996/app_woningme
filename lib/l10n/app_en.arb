@@ -1,0 +1,182 @@
+{
+  "@@locale": "en",
+
+  "welcomeTitle": "Welcome to WoonMe!",
+  "welcomeSubtitle": "Easily find your dream home for free.",
+  "welcomeLogin": "Log in",
+  "welcomeRegister": "Register",
+  "welcomeContinueGuest": "Continue without account",
+
+  "loginPageTitle": "Log in",
+  "loginEmailLabel": "Email address",
+  "loginPasswordLabel": "Password",
+  "loginSubmit": "Log in",
+  "loginEmailRequired": "Please enter your email address",
+  "loginEmailInvalid": "Enter a valid email address",
+  "loginPasswordRequired": "Please enter your password",
+  "loginPasswordTooShort": "Password must be at least 6 characters",
+  "loginErrorUserNotFound": "No account found with this email address.",
+  "loginErrorWrongPassword": "Incorrect password.",
+  "loginErrorInvalidEmail": "Invalid email address.",
+  "loginErrorUserDisabled": "This account has been disabled.",
+  "loginErrorGeneric": "Login failed. Please try again.",
+
+  "registerPageTitle": "Register",
+  "registerFirstNameLabel": "First name",
+  "registerEmailLabel": "Email address",
+  "registerPasswordLabel": "Password",
+  "registerSubmit": "Create account",
+  "registerFirstNameRequired": "Please enter your first name",
+  "registerEmailRequired": "Please enter your email address",
+  "registerEmailInvalid": "Enter a valid email address",
+  "registerPasswordRequired": "Please enter your password",
+  "registerPasswordTooShort": "Password must be at least 6 characters",
+  "registerConfirmPasswordLabel": "Confirm password",
+  "registerConfirmPasswordRequired": "Please confirm your password",
+  "registerConfirmPasswordMismatch": "Passwords do not match",
+  "registerErrorEmailInUse": "This email address is already in use.",
+  "registerErrorInvalidEmail": "Invalid email address.",
+  "registerErrorWeakPassword": "Password is too weak.",
+  "registerErrorGeneric": "Registration failed. Please try again.",
+
+  "profilePageTitle": "My account",
+  "profileMoreOptions": "More account options",
+  "profileMemberSince": "Member since",
+  "profileLastActivity": "Last activity",
+  "profileLogout": "Log out",
+  "profileFeedback": "Give feedback",
+  "profileDeleteAccount": "Delete account",
+  "profileDeleteDialogTitle": "Delete account",
+  "profileDeleteDialogBody": "Are you sure you want to delete your account and all search filters? This cannot be undone.",
+  "profileDeleteDialogCancel": "Cancel",
+  "profileDeleteDialogConfirm": "Delete",
+  "profileErrorRelogin": "Log in again and try deleting your account again.",
+  "profileErrorGeneric": "Error: {message}",
+  "@profileErrorGeneric": {
+    "placeholders": {
+      "message": { "type": "String" }
+    }
+  },
+  "profileErrorDelete": "Error deleting: {error}",
+  "@profileErrorDelete": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "profileLanguageSection": "LANGUAGE",
+  "profileLanguageNl": "Nederlands",
+  "profileLanguageEn": "English",
+
+  "profileNotificationsSection": "Notifications",
+  "profileNotificationsReceive": "Receive notifications",
+  "profileNotificationsEnableInSettings": "Please enable notifications in your phone settings.",
+
+  "filterOnboardingTitle": "Set up your first search filter",
+  "filterOnboardingDesc": "A search filter saves your housing preferences. Specify which city you want to live in, what your budget is and how many rooms you need — then WoonMe will show you matching listings directly.",
+  "filterCityLabel": "City or municipality",
+  "filterRadiusLabel": "Radius:",
+  "filterMinRentLabel": "Min. rent €",
+  "filterMaxRentLabel": "Max. rent €",
+  "filterMinRoomsLabel": "Min. rooms:",
+  "filterMinSizeLabel": "Min. area (m²)",
+  "filterSaveButton": "Save filter",
+  "filterErrorAtLeastOne": "Fill in at least one filter to continue.",
+  "filterDefaultLabel": "My search filter",
+  "filterWholeNL": "All of Netherlands",
+  "filterFromPrice": "from €{price}",
+  "@filterFromPrice": {
+    "placeholders": {
+      "price": { "type": "int" }
+    }
+  },
+  "filterUpToPrice": "up to €{price}",
+  "@filterUpToPrice": {
+    "placeholders": {
+      "price": { "type": "int" }
+    }
+  },
+  "filterRooms": "{count} rooms",
+  "@filterRooms": {
+    "placeholders": {
+      "count": { "type": "String" }
+    }
+  },
+
+  "zoekenNewFilter": "New search filter",
+  "zoekenSave": "Save",
+  "zoekenCityLabel": "City name *",
+  "zoekenCityRequired": "Enter a city name",
+  "zoekenSavedSuccess": "Search filter saved",
+  "zoekenStayUpdated": "Stay updated on new listings",
+  "zoekenNoFilters": "No search filters saved yet.",
+
+  "aanbodTabLabel": "Listings",
+  "aanbodFilterTabLabel": "Search filter",
+  "aanbodNewTabLabel": "New",
+  "aanbodFiltersHeader": "Search filters",
+  "aanbodFiltersHeaderCollapsed": "Search filters · {label}",
+  "@aanbodFiltersHeaderCollapsed": {
+    "placeholders": {
+      "label": { "type": "String" }
+    }
+  },
+  "aanbodRadiusLabel": "Radius:",
+  "aanbodSortLabel": "Sort:",
+  "aanbodSortNewest": "Newest",
+  "aanbodSortOldest": "Oldest",
+  "aanbodSortPriceAsc": "Price ↑",
+  "aanbodSortPriceDesc": "Price ↓",
+  "aanbodSortDistance": "Distance",
+  "aanbodBannerText": "Be the first — get notified when new listings become available",
+  "aanbodEmptyTitle": "No search filters set",
+  "aanbodEmptyBody": "Go to the \"Search filter\" tab to save your preferences and see matching listings.",
+  "aanbodNoResults": "No properties found.",
+  "aanbodErrorRetry": "Try again",
+  "aanbodBadgeNew": "New",
+  "aanbodBadgeRecent": "Recent",
+  "aanbodUnknownAddress": "Unknown address",
+
+  "nieuwToday": "Today",
+  "nieuwThisWeek": "This week",
+  "nieuwEmptyNoFilter": "First set up a search filter via the \"Search filter\" tab.",
+  "nieuwEmptyNoResults": "No new listings available this week.",
+  "nieuwErrorLoadFailed": "Could not load listings",
+  "nieuwRetry": "Retry",
+
+  "feedbackPageTitle": "Give feedback",
+  "feedbackTitleLabel": "Title",
+  "feedbackDescLabel": "Description",
+  "feedbackSubmit": "Send",
+  "feedbackTitleRequired": "Enter a title",
+  "feedbackDescRequired": "Enter a description",
+  "feedbackSuccessMessage": "Thank you for your feedback!",
+  "feedbackErrorMessage": "Error while sending: {error}",
+  "@feedbackErrorMessage": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+
+  "updatePromptTitle": "Update available",
+  "updatePromptBody": "A new version of the app is available. Do you want to update now?",
+  "updatePromptLater": "Later",
+  "updatePromptUpdate": "Update",
+  "updateEnforceTitle": "Update required",
+  "updateEnforceBody": "To continue using the app you must update to the latest version.",
+  "updateEnforceButton": "Update",
+
+  "notifPermissionTitle": "Stay informed",
+  "notifPermissionBody": "Receive notifications about new features and important app updates.",
+  "notifPermissionSettingsHint": "You can always change this in the app settings.",
+  "notifPermissionAllow": "Yes, keep me updated",
+  "notifPermissionSkip": "Skip",
+
+  "propertySourcePickerTitle": "Choose a source",
+
+  "propertySourceCount": "{count, plural, =1{1 source} other{{count} sources}}",
+  "@propertySourceCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  }
+}

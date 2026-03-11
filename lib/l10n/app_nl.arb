@@ -1,0 +1,182 @@
+{
+  "@@locale": "nl",
+
+  "welcomeTitle": "Welkom bij WoonMe!",
+  "welcomeSubtitle": "Vind eenvoudig en gratis jouw droomhuis.",
+  "welcomeLogin": "Inloggen",
+  "welcomeRegister": "Registreren",
+  "welcomeContinueGuest": "Doorgaan zonder account",
+
+  "loginPageTitle": "Inloggen",
+  "loginEmailLabel": "E-mailadres",
+  "loginPasswordLabel": "Wachtwoord",
+  "loginSubmit": "Inloggen",
+  "loginEmailRequired": "Vul alstublieft uw e-mailadres in",
+  "loginEmailInvalid": "Voer een geldig e-mailadres in",
+  "loginPasswordRequired": "Vul alstublieft uw wachtwoord in",
+  "loginPasswordTooShort": "Wachtwoord moet minimaal 6 tekens bevatten",
+  "loginErrorUserNotFound": "Geen account gevonden met dit e-mailadres.",
+  "loginErrorWrongPassword": "Onjuist wachtwoord.",
+  "loginErrorInvalidEmail": "Ongeldig e-mailadres.",
+  "loginErrorUserDisabled": "Dit account is uitgeschakeld.",
+  "loginErrorGeneric": "Inloggen mislukt. Probeer het opnieuw.",
+
+  "registerPageTitle": "Registreren",
+  "registerFirstNameLabel": "Voornaam",
+  "registerEmailLabel": "E-mailadres",
+  "registerPasswordLabel": "Wachtwoord",
+  "registerSubmit": "Account aanmaken",
+  "registerFirstNameRequired": "Vul alstublieft uw voornaam in",
+  "registerEmailRequired": "Vul alstublieft uw e-mailadres in",
+  "registerEmailInvalid": "Voer een geldig e-mailadres in",
+  "registerPasswordRequired": "Vul alstublieft uw wachtwoord in",
+  "registerPasswordTooShort": "Wachtwoord moet minimaal 6 tekens bevatten",
+  "registerConfirmPasswordLabel": "Wachtwoord bevestigen",
+  "registerConfirmPasswordRequired": "Bevestig alstublieft uw wachtwoord",
+  "registerConfirmPasswordMismatch": "Wachtwoorden komen niet overeen",
+  "registerErrorEmailInUse": "Dit e-mailadres is al in gebruik.",
+  "registerErrorInvalidEmail": "Ongeldig e-mailadres.",
+  "registerErrorWeakPassword": "Wachtwoord is te zwak.",
+  "registerErrorGeneric": "Registratie mislukt. Probeer het opnieuw.",
+
+  "profilePageTitle": "Mijn account",
+  "profileMoreOptions": "Meer accountopties",
+  "profileMemberSince": "Lid sinds",
+  "profileLastActivity": "Laatste activiteit",
+  "profileLogout": "Uitloggen",
+  "profileFeedback": "Geef feedback",
+  "profileDeleteAccount": "Account verwijderen",
+  "profileDeleteDialogTitle": "Account verwijderen",
+  "profileDeleteDialogBody": "Weet je zeker dat je je account en alle zoekfilters wilt verwijderen? Dit kan niet ongedaan worden gemaakt.",
+  "profileDeleteDialogCancel": "Annuleren",
+  "profileDeleteDialogConfirm": "Verwijderen",
+  "profileErrorRelogin": "Log opnieuw in en probeer je account opnieuw te verwijderen.",
+  "profileErrorGeneric": "Fout: {message}",
+  "@profileErrorGeneric": {
+    "placeholders": {
+      "message": { "type": "String" }
+    }
+  },
+  "profileErrorDelete": "Fout bij verwijderen: {error}",
+  "@profileErrorDelete": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+  "profileLanguageSection": "TAAL",
+  "profileLanguageNl": "Nederlands",
+  "profileLanguageEn": "English",
+
+  "profileNotificationsSection": "Notificaties",
+  "profileNotificationsReceive": "Notificaties ontvangen",
+  "profileNotificationsEnableInSettings": "Schakel notificaties in via de instellingen.",
+
+  "filterOnboardingTitle": "Stel je eerste zoekfilter in",
+  "filterOnboardingDesc": "Een zoekfilter slaat jouw woonwensen op. Geef aan in welke stad je wilt wonen, wat je budget is en hoeveel kamers je nodig hebt — dan toont WoonMe direct passend aanbod.",
+  "filterCityLabel": "Stad of gemeente",
+  "filterRadiusLabel": "Straal:",
+  "filterMinRentLabel": "Min. huur €",
+  "filterMaxRentLabel": "Max. huur €",
+  "filterMinRoomsLabel": "Min. kamers:",
+  "filterMinSizeLabel": "Min. oppervlakte (m²)",
+  "filterSaveButton": "Filter opslaan",
+  "filterErrorAtLeastOne": "Vul minimaal één filter in om verder te gaan.",
+  "filterDefaultLabel": "Mijn zoekfilter",
+  "filterWholeNL": "Heel Nederland",
+  "filterFromPrice": "v.a. €{price}",
+  "@filterFromPrice": {
+    "placeholders": {
+      "price": { "type": "int" }
+    }
+  },
+  "filterUpToPrice": "t/m €{price}",
+  "@filterUpToPrice": {
+    "placeholders": {
+      "price": { "type": "int" }
+    }
+  },
+  "filterRooms": "{count} kamers",
+  "@filterRooms": {
+    "placeholders": {
+      "count": { "type": "String" }
+    }
+  },
+
+  "zoekenNewFilter": "Nieuw zoekfilter",
+  "zoekenSave": "Opslaan",
+  "zoekenCityLabel": "Plaatsnaam *",
+  "zoekenCityRequired": "Vul een plaatsnaam in",
+  "zoekenSavedSuccess": "Zoekfilter opgeslagen",
+  "zoekenStayUpdated": "Blijf op de hoogte van nieuw aanbod",
+  "zoekenNoFilters": "Nog geen zoekfilters opgeslagen.",
+
+  "aanbodTabLabel": "Aanbod",
+  "aanbodFilterTabLabel": "Zoekfilter",
+  "aanbodNewTabLabel": "Nieuw",
+  "aanbodFiltersHeader": "Zoekfilters",
+  "aanbodFiltersHeaderCollapsed": "Zoekfilters · {label}",
+  "@aanbodFiltersHeaderCollapsed": {
+    "placeholders": {
+      "label": { "type": "String" }
+    }
+  },
+  "aanbodRadiusLabel": "Straal:",
+  "aanbodSortLabel": "Sortering:",
+  "aanbodSortNewest": "Nieuwste",
+  "aanbodSortOldest": "Oudste",
+  "aanbodSortPriceAsc": "Prijs ↑",
+  "aanbodSortPriceDesc": "Prijs ↓",
+  "aanbodSortDistance": "Afstand",
+  "aanbodBannerText": "Wees er als eerste bij — ontvang een melding zodra er nieuw aanbod beschikbaar is",
+  "aanbodEmptyTitle": "Geen zoekfilters ingesteld",
+  "aanbodEmptyBody": "Ga naar het \"Zoekfilter\" tabblad om je voorkeuren op te slaan en passend woningaanbod te zien.",
+  "aanbodNoResults": "Geen woningen gevonden.",
+  "aanbodErrorRetry": "Opnieuw proberen",
+  "aanbodBadgeNew": "Nieuw",
+  "aanbodBadgeRecent": "Recent",
+  "aanbodUnknownAddress": "Onbekend adres",
+
+  "nieuwToday": "Vandaag",
+  "nieuwThisWeek": "Deze week",
+  "nieuwEmptyNoFilter": "Stel eerst een zoekfilter in via het \"Zoekfilter\" tabblad.",
+  "nieuwEmptyNoResults": "Deze week zijn geen nieuwe woningen beschikbaar gekomen.",
+  "nieuwErrorLoadFailed": "Kon woningen niet laden",
+  "nieuwRetry": "Opnieuw",
+
+  "feedbackPageTitle": "Feedback geven",
+  "feedbackTitleLabel": "Titel",
+  "feedbackDescLabel": "Omschrijving",
+  "feedbackSubmit": "Verstuur",
+  "feedbackTitleRequired": "Vul een titel in",
+  "feedbackDescRequired": "Vul een omschrijving in",
+  "feedbackSuccessMessage": "Bedankt voor je feedback!",
+  "feedbackErrorMessage": "Fout bij verzenden: {error}",
+  "@feedbackErrorMessage": {
+    "placeholders": {
+      "error": { "type": "String" }
+    }
+  },
+
+  "updatePromptTitle": "Update beschikbaar",
+  "updatePromptBody": "Er is een nieuwe versie van de app beschikbaar. Wil je nu bijwerken?",
+  "updatePromptLater": "Later",
+  "updatePromptUpdate": "Bijwerken",
+  "updateEnforceTitle": "Update vereist",
+  "updateEnforceBody": "Om de app te blijven gebruiken moet je updaten naar de nieuwste versie.",
+  "updateEnforceButton": "Bijwerken",
+
+  "notifPermissionTitle": "Blijf op de hoogte",
+  "notifPermissionBody": "Ontvang meldingen bij nieuwe functies en belangrijke updates in de app.",
+  "notifPermissionSettingsHint": "Je kunt dit altijd wijzigen via de instellingen van de app.",
+  "notifPermissionAllow": "Ja, houd me op de hoogte",
+  "notifPermissionSkip": "Overslaan",
+
+  "propertySourcePickerTitle": "Kies een bron",
+
+  "propertySourceCount": "{count, plural, =1{1 bron} other{{count} bronnen}}",
+  "@propertySourceCount": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  }
+}
